@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custon Stylesheet-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Google font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Shizuru&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="custom.css" rel="stylesheet">
+  
+<title>Bulletin</title>
+
+</head>
+<body> 
+ <div class="page-header" aria-roledescription="banner">
+  
+
+
+ </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarBasic">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="connect.html" tabindex="-1" aria-disabled="true">Connect</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+            
+    <div class="row gx-4 gx-lg-5">
+      <div class="col-md-4 mb-5">
+          <div class="card h-100">
+              <div class="card-body">
+                <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+                  <h2 class="card-title">Mark Warner</h2>
+                  <p class="card-text">Hi! I am a UNC Student interested in food and music festivals! I am planning to attend the Annual Food Festival in Raleigh. </p>
+              </div>
+              <div class="card-footer"><a class="btn btn-primary btn-sm text-center" href="#!">Connect</a></div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-5">
+          <div class="card h-100">
+              <div class="card-body">
+                <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+                  <h2 class="card-title">Alice Levings</h2>
+                  <p class="card-text">I am a UNC student, planning to attend the Multi-Cultural Festival.</p>
+              </div>
+              <div class="card-footer"><a class="btn btn-primary btn-sm text-center" href="#!">Connect</a></div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-5">
+          <div class="card h-100">
+              <div class="card-body">
+                <img src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"/>
+                  <h2 class="card-title">John Wright</h2>
+                  <p class="card-text">Hi! I am a student at Duke University, planning to attend the thrifting event. Let me know if you are interested in connecting!</p>
+              </div>
+              <div class="card-footer"><a class="btn btn-primary btn-sm text-center" href="#!">Connect</a></div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--chat-->
+
+<div class="chat_window">
+  <div class="top_menu">
+      <div class="buttons">
+          <div class="button close"></div>
+          <div class="button minimize"></div>
+          <div class="button maximize"></div>
+      </div>
+      <div class="title">Chat</div>
+  </div>
+  <ul class="messages"></ul>
+  <div class="bottom_wrapper clearfix">
+      <div class="message_input_wrapper">
+          <input class="message_input" placeholder="Type your message here..." />
+      </div>
+      <div class="send_message">
+          <div class="icon"></div>
+          <div class="text">Send</div>
+      </div>
+  </div>
+</div>
+<div class="message_template">
+  <li class="message">
+      <div class="avatar"></div>
+      <div class="text_wrapper">
+          <div class="text"></div>
+      </div>
+  </li>
+</div>
+
+
+
+<footer class="bg-dark text-center text-white">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="30" height="30"
+viewBox="0 0 24 24"
+style=" fill:#ffffff;">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="30" height="30"
+viewBox="0 0 50 50"
+style=" fill:#faf6f6;"><path d="M 14 4 C 8.4886661 4 4 8.4886661 4 14 L 4 36 C 4 41.511334 8.4886661 46 14 46 L 36 46 C 41.511334 46 46 41.511334 46 36 L 46 14 C 46 8.4886661 41.511334 4 36 4 L 14 4 z M 14 6 L 36 6 C 40.430666 6 44 9.5693339 44 14 L 44 36 C 44 40.430666 40.430666 44 36 44 L 14 44 C 9.5693339 44 6 40.430666 6 36 L 6 14 C 6 9.5693339 9.5693339 6 14 6 z M 25 11 C 16.806196 11 10 16.724334 10 23.962891 C 10 28.422653 12.681228 32.244798 16.572266 34.560547 C 15.979588 35.500836 15.233739 36.474116 14.300781 37.384766 A 1.0001 1.0001 0 0 0 15.173828 39.083984 C 17.481979 38.674506 19.894769 37.826205 21.878906 36.597656 C 22.885987 36.785688 23.918133 36.925781 25 36.925781 C 33.193804 36.925781 40 31.201447 40 23.962891 C 40 16.724334 33.19389 11 25 11 z M 25 13 C 32.27011 13 38 17.989447 38 23.962891 C 38 29.936334 32.270196 34.925781 25 34.925781 C 23.93592 34.925781 22.905081 34.805366 21.904297 34.597656 A 1.0001 1.0001 0 0 0 21.148438 34.744141 C 20.222493 35.357332 19.095857 35.862111 17.912109 36.279297 C 18.279348 35.7823 18.664906 35.29371 18.921875 34.736328 A 1.0001 1.0001 0 0 0 18.457031 33.421875 C 14.551886 31.494479 12 27.967608 12 23.962891 C 12 17.989447 17.729804 13 25 13 z"></path></svg>   
+
+© 2020 Copyright
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
